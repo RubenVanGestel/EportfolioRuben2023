@@ -1,0 +1,84 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+---
+
+<BaseLayout>
+    
+<div>
+  <div class="text-3xl w-full font-bold mb-2">Hobby's</div>
+</div>
+
+<div>
+  <div class="text-2xl w-full font-bold mb-2">Walking our dogs</div>
+</div>
+<div class="py-2 mb-5">
+  <text class="text-lg">
+  When I am not working or playing video games on my computer I like to take my dogs for a walk in the woods, this realy helps me relax and clear my mind. 
+  The dog in the last picture is actually my girlfriend's dog so when I am with her we usually go for a walk with him. 
+  </text>
+</div>
+
+<div class="flex justify-center ...">
+    <div class="carousel max-h-[600px] max-w-[300px]" >
+        <div id="slide1" class="carousel-item relative w-full">
+          <img src="/dist/about/kai.jpg" class="w-full" />
+          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide3" class="btn btn-circle">❮</a> 
+            <a href="#slide2" class="btn btn-circle">❯</a>
+          </div>
+        </div> 
+        <div id="slide2" class="carousel-item relative w-full">
+          <img src="/dist/about/kito.jpg" class="w-full" />
+          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide1" class="btn btn-circle">❮</a> 
+            <a href="#slide3" class="btn btn-circle">❯</a>
+          </div>
+        </div> 
+        <div id="slide3" class="carousel-item relative w-full">
+          <img src="/dist/about/Jerom.jpg" class="w-full" />
+          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide2" class="btn btn-circle">❮</a> 
+            <a href="#slide1" class="btn btn-circle">❯</a>
+          </div>
+        </div> 
+      </div>
+  </div>
+
+
+  <div>
+    <div class="text-2xl w-full font-bold mt-10">Playing video games</div>
+  </div>
+  <div class="py-2 mb-5">
+    <text class="text-lg">
+    While walking our dogs can be fun, it will never be as much fun as playing some videogames with my friends. 
+    I enjoy alot of different games from VR to strategy. I have multiple different consoles with countless of games.  
+    </text>
+
+    <div class="flex justify-center ...">
+      <div class="carousel max-h-[450px] max-w-[450px]" >
+          <div id="slide4" class="carousel-item relative w-full">
+            <img src="/dist/about/playstation5.jpg" class="w-full" />
+            <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+              <a href="#slide6" class="btn btn-circle">❮</a> 
+              <a href="#slide5" class="btn btn-circle">❯</a>
+            </div>
+          </div> 
+          <div id="slide5" class="carousel-item relative w-full">
+            <img src="/dist/about/nintendoSwitch.jpg" class="w-full" />
+            <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+              <a href="#slide4" class="btn btn-circle">❮</a> 
+              <a href="#slide6" class="btn btn-circle">❯</a>
+            </div>
+          </div> 
+          <div id="slide6" class="carousel-item relative w-full">
+            <img src="/dist/about/gamingPc.jpg" class="w-full" />
+            <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+              <a href="#slide5" class="btn btn-circle">❮</a> 
+              <a href="#slide4" class="btn btn-circle">❯</a>
+            </div>
+          </div> 
+        </div>
+    </div>
+  </div>
+
+</BaseLayout>
