@@ -1,0 +1,94 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+---
+
+<BaseLayout>
+ 
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">The Business</div>
+  </div>
+
+  <div class="hero">
+    <div class="hero-content text-center">
+      <div class="max-w-md">
+          <img src="/Internship/Wilms_logo.jpg"></img>
+          <p class="py-6">Wilms is a business focused on sustainability, quality and innovation. They produce high quality screens and rolling shutters.</p>
+        <a class="btn btn-primary" href="https://www.wilms.be/nl" target="_blank">Take me to Wilms</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">What did I do?</div>
+  </div>
+
+  <div class="hero">
+    <div class="hero-content text-center">
+      <div class="flex">
+
+        <div class="card bg-base-200 shadow-xl m-2">
+            <div class="card-body">
+              <figure><img src="/Internship/developer.png" alt="developer" /></figure>
+              <h2 class="card-title">.Net Core and Angular</h2>
+              <p>.Net was used to create an API that would listen to calls made by the user. The user was able to create, update and delete Items by using a custom made interface. This interface was made with Angular. </p>
+            </div>
+        </div>
+
+        <div class="card bg-base-200 shadow-xl m-2">
+            <div class="card-body min-h-full" >
+              <figure><img src="/Internship/application.png" alt="application" /></figure>
+              <h2 class="card-title pb-7">The application</h2>
+              <p>The purpose of my application was to be used to keep notice when employees did something noteworthy. For example: arriving too late at work. later on in development it was planned to add a part to manage forms for growth conversations</p>
+            </div>
+        </div>
+
+        <div class="card bg-base-200 shadow-xl m-2">
+            <div class="card-body min-h-full" >
+              <figure><img src="/Internship/user.png" alt="user" /></figure>
+              <h2 class="card-title pb-7">The User</h2>
+              <p>The application would primarly be used by the employees at Human Rescources. They would use it to keep the notes and invite the employees to fill in the forms used for the growth conversations. </p>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Screenshots of the application</div>
+  </div>
+
+  <div>
+    <div class="mb-5">
+        <div class="text-1xl w-full font-bold">Create Screen</div>
+      </div>
+
+      <img src="/Internship/addEmployee.PNG">
+      <text class="text-lg">
+       In this screenshot you can see how a user could add an employee to the database. I used the same lay-out for every other create screen.
+      </text>
+  </div>
+
+  <div>
+    <div class="mb-5">
+        <div class="text-1xl w-full font-bold">Details Screens</div>
+      </div>
+
+      <img src="/Internship/employeeDetails.PNG">
+      <text class="text-lg">
+        This screenshot shows the details of an employee, I used accordeon components wich allow the user to keep a clear overview over the page.
+        The bottom part of the screen shows how a note can be added and how it would look on the details page of a specific employee.
+      </text>
+  </div>
+
+  <div>
+    <div class="mb-5">
+        <div class="text-1xl w-full font-bold">Login Screen</div>
+      </div>
+
+      <img src="/Internship/login.PNG">
+      <text class="text-lg">
+        I made a login screen to give the the users the ability to log in to the application. The login would later be used to hide certain parts of the application for users without the rights needed to view them. 
+      </text>
+  </div>
+
+</BaseLayout>
