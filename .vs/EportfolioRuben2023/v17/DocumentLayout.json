@@ -1,0 +1,58 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Schoolwerk\\EportfolioRuben2023\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Schoolwerk\\EportfolioRuben2023\\src\\pages\\aboutme.astro||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\pages\\aboutme.astro||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Schoolwerk\\EportfolioRuben2023\\src\\pages\\cv.astro||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\pages\\cv.astro||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "cv.astro",
+              "DocumentMoniker": "D:\\Schoolwerk\\EportfolioRuben2023\\src\\pages\\cv.astro",
+              "RelativeDocumentMoniker": "src\\pages\\cv.astro",
+              "ToolTip": "D:\\Schoolwerk\\EportfolioRuben2023\\src\\pages\\cv.astro",
+              "RelativeToolTip": "src\\pages\\cv.astro",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-08-19T16:16:25.765Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "aboutme.astro",
+              "DocumentMoniker": "D:\\Schoolwerk\\EportfolioRuben2023\\src\\pages\\aboutme.astro",
+              "RelativeDocumentMoniker": "src\\pages\\aboutme.astro",
+              "ToolTip": "D:\\Schoolwerk\\EportfolioRuben2023\\src\\pages\\aboutme.astro",
+              "RelativeToolTip": "src\\pages\\aboutme.astro",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-08-19T16:16:20Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

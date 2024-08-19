@@ -1,6 +1,6 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
-import HorizontalCard from "../components/HorizontalCard.astro";
+import TimeLineElement from "../components/cv/TimeLine.astro";
 ---
 
 <BaseLayout>
@@ -20,33 +20,58 @@ import HorizontalCard from "../components/HorizontalCard.astro";
       </div>
     </div>
 
-    <div>
-      <div class="text-3xl w-full font-bold mb-2">My projects</div>
+ 
+    <div class="mb-5">
+      <div class="text-3xl w-full font-bold">Education</div>
+    </div>
+  
+    <div class="time-line-container grid gap-4 mb-10">
+      <TimeLineElement
+        title="Graduate Programming"
+        subtitle="2021 to 2023 at Thomasmore, Geel, Belgium"
+      />
+    </div>
+  
+    <div class="mb-5">
+      <div class="text-3xl w-full font-bold">Experience</div>
+    </div>
+  
+    <div class="time-line-container mb-10">
+      <TimeLineElement
+        title="Order picker at Brabantia"
+        subtitle="From 10-2019 to 09-2021 at Brabantia, Pelt, Belgium"
+        desc="I started out with just the order picking but just before I left Brabantia was going to change their warehouse system. I was asked if i wanted to help with the early problems this change would bring and so I agreed. My job then was looking after the orders in the system and making sure everything would go as planned fixing issues before they became a problem to the people working on the orders."
+      />
+      <TimeLineElement
+        title="Internship at Wilms"
+        subtitle="From 02/2023 to 06/2023 at Wilms, Meerhout, Belgium"
+        desc="During my Graduate I had to do an Internship, I chose Wilms because they had an open vacature for a full stack developer at the moment. The vacature asked for programming languages that i learned in school but wasn't very good at so I figured that I could learn alot from the people working here. After the internship i can say I learned alot so I am thankfull for everything they did to help me. "
+      />
+    </div>
+  
+    <div class="mb-5">
+      <div class="text-3xl w-full font-bold">Skills</div>
     </div>
 
-    <HorizontalCard
-    title="Wordpress Project"
-    img="/wordpress-logo.jpg"
-    desc="In this project we had to make a template for a beachvolly club. We were divided in groups of 4 while working on this project. The club could choose between all the projects in our class and ultimatly chose ours as the one that suited their needs best."
-    url="https://www.vstlionsbeach.be/"
-    />
-    <div class="divider my-0"></div>
+    <ul class="list-disc md:columns-5 columns-2 mx-6 mb-5">
+      <li>Angular</li>
+      <li>C Sharp</li>
+      <li>Javascript</li>
+      <li>CSS</li>
+      <li>SQL Server</li>
+      <li>HTML</li>
+    </ul>
 
-    
-      <HorizontalCard
-      title="JavaScript Project"
-      img="/javascript-logo.jpg"
-      desc="In this project I made a Form where all the values are checked if they are valid using JavaScript. It was made to study my JavaScript wich is the reason I didnt spent much time on the layout of the form."
-      url="https://github.com/RubenVanGestel/JSProject/tree/main"
-      />
-    <div class="divider my-0"></div>
-      <HorizontalCard
-      title="Internship Project"
-      img="/angular.png"
-      desc="This project was the most difficult one I have done so far, I had to make an application for HR. The application I was creating was going to digitalize something that was still done mostly on paper. \
-        It would also be used to keep a Logbook for each employee. Wilms is a business that wants to give opportunities to their employees to grow as a person and they do this by having regular conversations with their employees. \
-        Sadly I dont have the files to show of this project anymore"
-      url="https://github.com/RubenVanGestel/JSProject/tree/main"
-      />
+
+    <div class="mb-5">
+      <div class="text-3xl w-full font-bold">Additional competencies</div>
+    </div>
+
+    <ul class="list-discmx-6">
+      <li>Drivers Licence B</li>
+      <li>Dutch: Native Language</li>
+      <li>English: Good</li>
+
+    </ul>
     
 </BaseLayout>

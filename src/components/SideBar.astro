@@ -29,10 +29,8 @@ import { Image } from "@astrojs/image/components";
     <ul class="grow shrink">
       <!-- Sidebar content here -->
       <li><a id="home" href="/">Home</a></li>
-      <li><a id="cv" href="/cv">CV</a></li>
       <li><a id="internship" href="/Internship">Internship</a></li>
-      <li><a id="aboutme" href="/aboutme">About Me</a></li>
-      <li><a href="mailto:r0900368@student.thomasmore.be">Contact</a></li>
+      <li><a href="mailto:rubbeke-1999@hotmail.com">Contact me!</a></li>
     </ul>
     <div class="social-icons px-4 my-2 flex self-center">
       <a
@@ -79,15 +77,13 @@ import { Image } from "@astrojs/image/components";
 <script>
   const homeLink = document.getElementById("home");
   const servicesLink = document.getElementById("services");
-  const aboutmeLink = document.getElementById("aboutme");
   const InternshipLink = document.getElementById("internship");
-  const cvLink = document.getElementById("cv");
 
   var isHome = true;
 
   const url = window.location.href;
 
-  const pages = [servicesLink, cvLink, aboutmeLink,InternshipLink];
+  const pages = [servicesLink, InternshipLink];
 
   const activeClass = "bg-base-300"; // For primary color replace with `active` class
 
